@@ -8,8 +8,5 @@ public class Wave_Array {
             arr[k] = arr[k-1];
             arr[k-1]=f;
         }
-        for (int k: arr){
-            System.out.print(k+" ");
-        }
     }
 }
